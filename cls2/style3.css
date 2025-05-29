@@ -1,0 +1,163 @@
+*
+{
+    border: 0;
+    margin: 0;
+}
+
+.nav
+{
+    height: 50px;
+    background-color: green;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo
+{
+    width: 30%;
+}
+.logo h1
+{
+    color: wheat;
+}
+
+h1
+{
+    color: red;
+}
+
+input
+{
+    border-radius: 10px;
+    font-size: 16 px;
+}
+
+.au
+{
+    height: 200px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+}
+
+
+input
+{
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.items
+{
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+}
+
+a
+{
+    color: white;
+    text-decoration: none;
+}
+
+.img
+{
+    height: 800px;
+    background-image: url(hxh.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.img p{
+    color: black;
+    text-align: justify;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.img button
+{
+    height: 40px;
+    width: 70px;
+    border-radius: 10px;
+    background-color: red;
+}
+
+.img button:hover
+{
+    background-color: green;
+    color: white;
+}
+
+.content
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content h1{
+    color: black;
+}
+
+.content p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: justify;
+}
+
+.a, .b
+{
+    margin-top: 20px;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.x, .y, .z
+{
+    width: 30%;
+    height: 300px;
+    background-color: aquamarine;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img
+{
+    border-radius: 50%;
+    height: 200px;
+    width: 50%;
+}
+
+.x h1, .y h1, .z h1
+{
+    color: black;
+}
+
+.x p, .y p, .z p
+{
+    padding: 5px;
+    color: red;
+    text-align: justify;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+} 
+
+.footer
+{
+    height: 30px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

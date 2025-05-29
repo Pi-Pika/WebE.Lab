@@ -1,0 +1,25 @@
+.main{
+    background-color: blueviolet;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.a{
+    background-color: blue;
+    height: 50px;
+    width: 20px;
+}
+
+.b{
+    background-color: red;
+    height: 50px;
+    width: 20px;
+}
+
+.c{
+    background-color: green;
+    height: 50px;
+    width: 20px;
+}

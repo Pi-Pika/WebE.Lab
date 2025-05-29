@@ -1,0 +1,13 @@
+p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.test{
+    color: dodgerblue;
+}
+
+.b{
+    border: 2px solid green;
+    border-radius: 4px;
+    padding: 10px;
+}
