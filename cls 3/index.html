@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+</head>
+<body>
+    <form action="" autocomplete="on">
+        <fieldset>
+            <legend>Log In</legend>
+            <label for="UserName" >Username</label>
+            <input type="text" id="UserName" name="UserName">
+            <br><br>
+
+            <label for="Password">Password</label>
+            <input type="password" id="Password" name="Password" placeholder="password" minlength="8">
+            <br><br>
+            
+            <input type="submit" value="Log In">
+            </fieldset>
+    </form>
+
+    <br><br>
+    <form action="">
+        <fieldset>
+            <legend>Registration</legend>
+            <label for="FullName">First Name: </label>
+            <input type="text" id="FullName" name="FullName">
+            <br><br>
+
+            <label for="LastName">Last Name: </label>
+            <input type="text" id="LastName" name="LastName" autofocus>
+            <br><br>
+            
+            <label for="DateOfBirth">Date of Birth: </label>
+            <input type="date">
+            <br><br>
+
+            <label for="Gender">Gender: </label>
+
+            <input type="radio" id="GenderM" name="Gender" value="M">
+            <label for="GenderM">Male</label>
+
+            <input type="radio" id="GenderF" name="Gender" value="F">
+            <label for="GenderF" >Female</label>
+            <br><br>
+
+            <label for="PL">Programming Language: </label>
+            
+            <input type="checkbox" id="PLC" name="pl" value="C">
+            <label for="PLC" >C</label>
+
+            <input type="checkbox" id="PLC#" name="pl" value="C#">
+            <label for="PLC#" >C#</label>
+
+            <input type="checkbox" id="PLJava" name="pl" value="Java">
+            <label for="PLJava" >Java</label>
+
+            <input type="checkbox" id="PLPython" name="pl" value="Python">
+            <label for="PLPython" >Python</label>
+
+            <input type="checkbox" id="PLPhp" name="pl" value="Php">
+            <label for="PLPhp" >PHP</label>
+            <br><br>
+
+            <label for="PL">Division: </label>
+            <select name="Division" id="Division">
+                <option value="Dhaka">Dhaka</option>
+                <option value="Rajshahi">Rajshahi</option>
+                <option value="Sylhet">Sylhet</option>
+                <option value="Rangpur">Rangpur</option>
+                <option value="Khulna">Khulna</option>
+                <option value="Barisal">Barisal</option>
+                <option value="Bogura" selected>Bogura</option>
+            </select>
+
+            <br><br>
+
+            <label for="EMail">E-mail: </label>
+            <input type="email" id="Email" name="Email">
+
+            <br><br>
+
+            <label for="FavCol">Favourite Colour: </label>
+            <input type="color" id="FavCol" name="FavCol">
+
+            <br><br>
+
+            <label for="CountryName">Country Name: </label>
+            <input type="text" id="CountryName" name="CountryName" pattern="[A-Z]{3}">
+
+            <br><br>
+
+
+            <input type="submit" value="Rregistration" onclick="fun()">
+            </fieldset>
+    </form>
+
+    <p id="parag"> Legend Arceus</p>
+
+</body>
+</html>
+
+
+<!-- autocomplete- ager entry suggestion dey
+require- oita chara complete hobe na
+autofocus- peticular field focus
+placeholder- dekha jabe but oita input hisbe thake na
+max / min dile oitar beshi inpur dewa jabe na 
+pattern: "[0-9] {5}-[0-9]{6}"
+01716817545-->
