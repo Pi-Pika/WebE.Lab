@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <form action="" autocomplete="on">
+        <fieldset>
+            <div class="form-row">
+                    <label for="Name" >Name: </label>
+                    <input type="text" id="Name" name="Name" >
+                    <span id = "NameError"></span>
+            </div>
+            <br>
+
+            <div class="form-row">
+                    <label for="EMail">E-mail: </label>
+                    <input type="email" id="EMail" name="EMail">
+                    <span id = "EMailError"></span>
+            </div>
+            <br>
+
+            <div class="form-row">
+                    <label for="Password">Password: </label>
+                    <input type="password" id="Password" name="Password" placeholder="password">
+                    <span id = "PasswordError"></span>
+            </div>
+            <br>
+
+            <div class="form-row">
+                    <label for="ConfirmPassword">Confirm Password: </label>
+                    <input type="confirmpassword" id="ConfirmPassword" name="ConfirmPassword" placeholder="confirm password" >
+                    <span id = "ConfirmPasswordError"></span>
+                </div>
+            </div>
+            <br>
+            
+            <input type="submit" value="Submit" onclick="fun()">
+            </fieldset>
+    </form>
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+.bg{
+    background-image: url("controlcov.jpg");
+}
+
+
+form {
+    width: 100%; 
+}
+
+
+label {
+    width: 160px; 
+    color: aquamarine;
+}
+
+span {
+    color: gold;
+    font-size: 12px;
+}
+legend{
+    color: aquamarine;
+}

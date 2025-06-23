@@ -1,0 +1,19 @@
+.form-row {
+    display: flex;
+    align-items: center; 
+    gap: 10px; 
+}
+
+form {
+    width: 100%; 
+}
+
+
+label {
+    width: 130px; 
+}
+
+span {
+    color: red;
+    font-size: 12px;
+}
