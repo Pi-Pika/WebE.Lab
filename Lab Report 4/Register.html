@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="LoginStyle.css">
+    
+</head>
+<body>
+    <form action="login.php" autocomplete="on" class="bg" method="post">
+        <fieldset>
+            <legend>Registration</legend>
+
+            <label for="Name" >Name: </label>
+            <input type="text" id="Name" name="Name" >
+            <span id = "NameError"></span>
+            <br><br>
+
+            <label for="EMail">E-mail: </label>
+            <input type="email" id="EMail" name="EMail">
+            <span id = "EMailError"></span>
+            <br><br>
+
+            <label for="Password">Password: </label>
+            <input type="password" id="Password" name="Password" placeholder="password">
+            <span id = "PasswordError"></span>
+            <br><br>
+
+            <label for="ConfirmPassword">Confirm Password: </label>
+            <input type="password" id="ConfirmPassword" name="ConfirmPassword" placeholder="confirm password" >
+            <span id = "ConfirmPasswordError"></span>
+            <br><br>
+            
+            
+            
+            <label for="DateOfBirth">Date of Birth: </label>
+            <input type="date">
+            <br><br>
+
+            <label for="Gender">Gender: </label>
+
+            <input type="radio" id="GenderM" name="Gender" value="M">
+            <label for="GenderM">Male</label>
+
+            <input type="radio" id="GenderF" name="Gender" value="F">
+            <label for="GenderF" >Female</label>
+            <span id = "GenderError"></span>
+            <br><br>
+
+            <label for="PL">Favourite Genres: </label>
+            
+            <input type="checkbox" id="FGA" name="fg" value="Action">
+            <label for="FGD" >Action</label>
+
+            <input type="checkbox" id="FGD" name="fg" value="Drama">
+            <label for="FGD" >Drama</label>
+
+            <input type="checkbox" id="FGAd" name="fg" value="Adventure">
+            <label for="FGAd" >Adventure</label>
+
+            <input type="checkbox" id="FGP" name="fg" value="Puzzle">
+            <label for="FGP" >Puzzle</label>
+
+            <input type="checkbox" id="FGF" name="fg" value="FPS">
+            <label for="FGF" >FPS</label>
+            <span id = "SelectionError"></span>
+            <br><br>
+
+            <label for="PL">Division: </label>
+            <select name="Division" id="Division">
+                <option value="Dhaka">Dhaka</option>
+                <option value="Rajshahi">Rajshahi</option>
+                <option value="Sylhet">Sylhet</option>
+                <option value="Rangpur">Rangpur</option>
+                <option value="Khulna">Khulna</option>
+                <option value="Barisal">Barisal</option>
+                <option value="Bogura" selected>Bogura</option>
+            </select>
+
+            <br><br>
+
+            <label for="FavCol">Favourite Colour: </label>
+            <input type="color" id="FavCol" name="FavCol">
+
+            <br><br>
+
+            <label for="CountryName">Country Name: </label>
+            <input type="text" id="CountryName" name="CountryName" pattern="[A-Z]{3}">
+            <span id = "CountryError"></span>
+            <br><br>
+            
+            <input type="submit" value="Register" onclick="fun()">
+        </fieldset>
+    </form>
+    <script src="Regapp.js"></script>
+</body>
+</html>
