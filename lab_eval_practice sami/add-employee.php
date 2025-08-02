@@ -11,7 +11,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
 }
 
 if ($name && $email && $mobile && $gender && $designation && $salary) {
-    $sql = "INSERT INTO employees (name, email, mobile, gender, designation, salary)
+    $sql = "INSERT INTO employee (name, email, mobile, gender, designation, salary)
     VALUES ('$name', '$email', '$mobile', '$gender', '$designation', '$salary')";
 
     $res = mysqli_query($conn, $sql);

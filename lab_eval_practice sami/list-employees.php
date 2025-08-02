@@ -1,7 +1,7 @@
 <?php 
 include 'dbcon.php';
 
-$sql = "SELECT * FROM employees";
+$sql = "SELECT * FROM employee";
 $res = mysqli_query($conn, $sql);
 ?>
 

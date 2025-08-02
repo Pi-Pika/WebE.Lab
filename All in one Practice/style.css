@@ -1,0 +1,39 @@
+.nav{
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: blue;
+    margin-bottom: 30px;
+    align-items: center;
+}
+
+.logo{
+    color: white;
+}
+
+.links{
+    display: flex;
+    flex-direction: row;
+}
+
+.links a{
+    color:white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.Ndata{
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+}
+
+.Ndata h2{
+    color: white;
+    text-align: center;
+}
+.error { 
+    color: red; 
+    font-size: 0.8em; 
+}
