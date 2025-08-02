@@ -2,12 +2,12 @@ function func(event) {
 
     let isValid = true;
     
-    document.getElementById("NameError").innerHTML = "";
-    document.getElementById("EmailError").innerHTML = "";
-    document.getElementById("MobileError").innerHTML = "";
-    document.getElementById("GenderError").innerHTML = "";
-    document.getElementById("DesignationError").innerHTML = "";
-    document.getElementById("SalaryError").innerHTML = "";
+    // document.getElementById("NameError").innerHTML = "";
+    // document.getElementById("EmailError").innerHTML = "";
+    // document.getElementById("MobileError").innerHTML = "";
+    // document.getElementById("GenderError").innerHTML = "";
+    // document.getElementById("DesignationError").innerHTML = "";
+    // document.getElementById("SalaryError").innerHTML = "";
 
     const uname = document.getElementById("uname").value;
     const email = document.getElementById("email").value;
@@ -56,8 +56,7 @@ function func(event) {
     }
 
     if (!isValid) {
-        event.preventDefault(); // Stop the form from submitting
-    }
+        event.preventDefault(); 
 
     return isValid;
 }
